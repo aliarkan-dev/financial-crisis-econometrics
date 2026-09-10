@@ -58,3 +58,10 @@ and assesses the role of central bank interventions in mitigating this transmiss
 ├── scripts/           # Python scripts for VAR, DCC-GARCH, and Diebold-Yilmaz models
 └── README.md          # Comprehensive econometric report
 ```
+## Outputs
+- **Impulse Response Functions (IRFs):** Derived from VAR estimations capturing cross-currency spillover dynamics over a 10-day horizon.
+
+![Impulse Response Functions](figures/irf_plot.png)
+
+- Time-varying spillover index plots.
+- Structural break dating results and crisis timeline visualizations.
